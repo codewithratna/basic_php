@@ -30,3 +30,21 @@ if ($mark >= 90) {
 } else {
     echo "Grade: C or lower";
 }
+
+
+echo "<br>";
+echo "<h1>switch </h1>";
+
+$mts = "Sunday";
+$jamuna = "Fluter";
+
+switch ($jamuna) {
+    case "Working day":
+        echo "Start of the week!";
+        break;
+    case "Sunday":
+        echo "Weekend is coming!";
+        break;
+    default:
+        echo "all others day working.";
+}
